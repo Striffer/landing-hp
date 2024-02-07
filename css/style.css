@@ -188,6 +188,10 @@ footer {
 
 .social-media a {
   text-decoration: none;
+  transition: 0.3s;
+}
+.social-media a:hover {
+  color: #000000 !important;
 }
 
 .first-container-saiba-mais {
