@@ -333,8 +333,14 @@ footer {
     height: 400px;
     margin-left: -40px;
   }
+  .third-container {
+    display: flex;
+    justify-content: center;
+  }
   .third-container .letter-container {
-    right: 10%;
+    position: inherit;
+    right: 0%;
+    margin-top: 20%;
   }
   #firstContainer {
     left: 20px;
@@ -344,21 +350,21 @@ footer {
   }
 }
 @media (max-width: 370px) {
+  #firstContainer {
+    left: 3%;
+  }
+  #firstContainer h3 {
+    font-size: 16px;
+  }
+  .seccond-content h2 {
+    font-size: 20px;
+  }
   .seccond-content-saiba-mais {
     width: 99%;
     padding: 10px;
   }
   .seccond-content-saiba-mais h2 {
     font-size: 16px;
-  }
-  .third-container {
-    display: flex;
-    justify-content: center;
-  }
-  .third-container .letter-container {
-    position: inherit;
-    right: 0%;
-    margin-top: 20%;
   }
   footer {
     flex-direction: column;
