@@ -215,6 +215,7 @@ footer {
   position: absolute;
   display: flex;
   flex-direction: column;
+  align-items: center;
   top: 15%;
   right: 5%;
   border-radius: 20px;
@@ -222,18 +223,8 @@ footer {
   gap: 40px;
 }
 
-.seccond-content-saiba-mais .paragraphs {
-  margin-top: 40px;
-}
-
-.seccond-content-saiba-mais p {
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 10px;
-}
-
-.seccond-content-saiba-mais span {
-  margin-left: 20px;
+.price-table td {
+  background-color: transparent !important;
 }
 
 .full-container-inscrevase {
@@ -353,6 +344,13 @@ footer {
   }
 }
 @media (max-width: 370px) {
+  .seccond-content-saiba-mais {
+    width: 99%;
+    padding: 10px;
+  }
+  .seccond-content-saiba-mais h2 {
+    font-size: 16px;
+  }
   .third-container {
     display: flex;
     justify-content: center;
@@ -368,10 +366,6 @@ footer {
   }
   .first-container-saiba-mais .ticket img {
     width: 240px;
-  }
-  .seccond-content-saiba-mais span {
-    margin-left: 0px;
-    display: flex;
   }
 }
 
